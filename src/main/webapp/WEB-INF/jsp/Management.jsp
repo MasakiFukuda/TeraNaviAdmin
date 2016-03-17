@@ -19,7 +19,7 @@ pageEncoding="UTF-8"
     <!-- CUSTOM STYLES-->
     <link href="/TeraNaviAdmin/css/assets/css/custom.css" rel="stylesheet">
     <!-- GOOGLE FONTS-->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 </head><body>
     <div id="wrapper">
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
@@ -183,7 +183,7 @@ pageEncoding="UTF-8"
     <!-- /. WRAPPER -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
-    <script src="/TeraNaviAdmin/js/assets/js/jquery-1.10.2.js"></script>
+    <script src="/TeraNaviAdmin/js/assets/js/jquery-2.1.4.js"></script>
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="/TeraNaviAdmin/js/assets/js/bootstrap.min.js"></script>
     <!-- METISMENU SCRIPTS -->

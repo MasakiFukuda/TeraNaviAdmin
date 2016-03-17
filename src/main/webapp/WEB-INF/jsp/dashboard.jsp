@@ -112,108 +112,26 @@
                                         </div>
                                     </div>
                                 </div>
-								<div style="display: none">     <div class="col-md-2 col-sm-4 col-xs-4 pull-right">
-                                    <div class="panel panel-back noti-box">
-                                        <span class="icon-box set-icon">
-                                            <i class="fa "></i>
-                                        </span>
-                                        <div class="text-box" >
-                                            <div class="col-xs-3"> <i class="fa fa-cloud fa-3x"></i> Newyork City </div>
-                                            <div class="col-xs-3">
-                                                <div class="text-temp"> 10° </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /. ROW  -->
-                                    <hr />
-                                </div>
-
-                            <!-- /. ROW  -->
-                            <div class="row">
-                                <div class="col-md-5 col-sm-12 col-xs-12">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            Bar Chart Example
-                                        </div>
-                                        <div class="panel-body">
-                                            <div id="morris-bar-chart"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            Area Chart Example
-                                        </div>
-                                        <div class="panel-body">
-                                            <div id="morris-area-chart"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /. ROW  -->
 
                             <div class="col-md-9 col-sm-12 col-xs-12">
 
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        Responsive Table Example
+                                        新着ユーザーリスト
                                     </div>
                                     <div class="panel-body">
                                         <div class="table-responsive">
                                             <table class="table table-striped table-bordered table-hover">
                                                 <thead>
                                                     <tr>
-                                                        <th>#</th>
-                                                        <th>First Name</th>
-                                                        <th>Last Name</th>
-                                                        <th>Username</th>
-                                                        <th>User No.</th>
+                                                        <th>Id</th>
+                                                        <th>UserName</th>
+                                                        <th>Sex</th>
+                                                        <th>BirthDay</th>
+                                                        <th>Mail</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Mark</td>
-                                                        <td>Otto</td>
-                                                        <td>@mdo</td>
-                                                        <td>100090</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Jacob</td>
-                                                        <td>Thornton</td>
-                                                        <td>@fat</td>
-                                                        <td>100090</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Larry</td>
-                                                        <td>the Bird</td>
-                                                        <td>@twitter</td>
-                                                        <td>100090</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Mark</td>
-                                                        <td>Otto</td>
-                                                        <td>@mdo</td>
-                                                        <td>100090</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Jacob</td>
-                                                        <td>Thornton</td>
-                                                        <td>@fat</td>
-                                                        <td>100090</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Larry</td>
-                                                        <td>the Bird</td>
-                                                        <td>@twitter</td>
-                                                        <td>100090</td>
-                                                    </tr>
+                                                <tbody id="tbody">
 
                                                 </tbody>
                                             </table>
@@ -243,6 +161,7 @@
             <!-- CUSTOM SCRIPTS -->
             <script src="/TeraNaviAdmin/js/assets/js/custom.js"></script>
             <script src="/TeraNaviAdmin/js/new-contact.js"></script>
+            <script src="/TeraNaviAdmin/js/new-user.js"></script>
 
         </body>
     </html>
