@@ -7,7 +7,7 @@
 
 
     <!DOCTYPE html>
-    <html xmlns="http://www.w3.org/1999/xhtml">
+    <html>
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,12 +21,12 @@
             <!-- CUSTOM STYLES-->
             <link href="/TeraNaviAdmin/css/assets/css/custom.css" rel="stylesheet" />
             <!-- GOOGLE FONTS-->
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
         </head>
         <body>
 			<%
 				if(session.getAttribute("loginUser")==null){
-					response.sendRedirect("/TeraNaviAdmin/index"); 
+					response.sendRedirect("/TeraNaviAdmin/index");
 				}
 				%>
             <div id="wrapper">
@@ -127,7 +127,7 @@
                                     <!-- /. ROW  -->
                                     <hr />
                                 </div>
-                           
+
                             <!-- /. ROW  -->
                             <div class="row">
                                 <div class="col-md-5 col-sm-12 col-xs-12">

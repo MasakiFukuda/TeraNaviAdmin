@@ -18,11 +18,11 @@ pageEncoding="UTF-8"
     <!-- CUSTOM STYLES-->
     <link href="/TeraNaviAdmin/css/assets/css/custom.css" rel="stylesheet">
     <!-- GOOGLE FONTS-->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 </head><body>
 				<%
 				if(session.getAttribute("loginUser")==null){
-					response.sendRedirect("/TeraNaviAdmin/index"); 
+					response.sendRedirect("/TeraNaviAdmin/index");
 				}
 				%>
     <div id="wrapper">

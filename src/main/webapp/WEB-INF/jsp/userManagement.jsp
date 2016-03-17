@@ -19,14 +19,14 @@ pageEncoding="UTF-8"
     <!-- CUSTOM STYLES-->
     <link href="/TeraNaviAdmin/css/assets/css/custom.css" rel="stylesheet">
     <!-- GOOGLE FONTS-->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/TeraNaviAdmin/css/default.css">
     <link href="/TeraNaviAdmin/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
     <link href="/TeraNaviAdmin/css/custom.css" media="all" rel="stylesheet" type="text/css" />
 </head><body style="overflow:hidden">
 				<%
 				if(session.getAttribute("loginUser")==null){
-					response.sendRedirect("/TeraNaviAdmin/index"); 
+					response.sendRedirect("/TeraNaviAdmin/index");
 				}
 				%>
     <div id="wrapper">
@@ -179,7 +179,7 @@ pageEncoding="UTF-8"
     <!-- /. WRAPPER -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
-    <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
     <%-- <script src="/TeraNaviAdmin/js/assets/js/jquery-1.10.2.js"></script> --%>
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="/TeraNaviAdmin/js/assets/js/bootstrap.min.js"></script>
