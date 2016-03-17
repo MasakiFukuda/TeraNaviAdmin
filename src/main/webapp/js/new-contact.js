@@ -1,6 +1,7 @@
 window.onload= function(){
     newContact();
     newReport();
+	newUser();
 }
 
 function newContact(){
