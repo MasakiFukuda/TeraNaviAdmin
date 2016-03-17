@@ -45,7 +45,10 @@ public class UsersDao implements AbstractDao{
             }
             pst=cn.prepareStatement(new String(sql));
 
-            pst.setString(1,(String)map.get("userStatus"));
+            
+			if(map.containsKey("userStatus")){
+                pst.setString(1,(String)map.get("userStatus"));
+            }
 
             if(map.containsKey("value")){
                 pst.setString(2,(String)map.get("value"));
